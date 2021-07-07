@@ -104,3 +104,118 @@
 }
 
 /* info section */
+
+/* more-info-section */
+.more-info-section{
+    margin-top: 135px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.my-information-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutme-info-article{
+    max-width: 334px;
+    width: 100%;
+    text-align: right;
+}
+.aboutme-info-article h3{
+    font-size: 40px;
+    font-family: 'Glacial Indifference-Bold';
+    color: #222222;
+    margin-bottom: 5px;
+}
+.aboutme-info-article h4{
+    font-size: 14px;
+    font-family: 'Muli';
+    color: #DAAE19;
+    margin-bottom: 35px;
+}
+.aboutme-info-article h6{
+    font-size: 15px;
+    font-family: 'Muli';
+    color: #555555;
+    margin-bottom: 60px;
+}
+.aboutme-info-article .hire-btn{
+    font-size: 15px;
+    font-family: 'Glacial Indifference-Bold';
+    color: #FFFFFF;
+    background-color: #E93656;
+    padding: 15px 45px;
+    border: none;
+}
+.profile-image{
+    margin-right: 70px;
+    margin-left: 70px;
+}
+.profile-image img{
+    max-width: 430px;
+    width: 100%;
+}
+.my-socials{
+    display: flex;
+    align-items: center;
+    margin-top: 75px;
+}
+.my-socials a{
+    padding: 20px;
+    background-color: #F9F9F9;
+    margin-right: 5px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-box{
+    display: flex;
+    justify-content: center;
+    background-color: #131A36;
+    padding: 50px 0;
+    margin-top: 100px;
+}
+.phoneNumber-div,
+.address-div{
+    margin-right: 40px;
+}
+.phoneNumber-div,
+.address-div,
+.email-div{
+    display: flex;
+    align-items: center;
+}
+.phoneNumber-div img,
+.address-div img,
+.email-div img{
+    margin-right: 15px;
+}
+.phone-info h4,
+.address-info h4,
+.email-info h4{
+    margin-bottom: 15px;
+}
+.phone-info p,
+.address-info p,
+.email-info p{
+    margin-bottom: 5px;
+}
+.phoneNumber-div h4,
+.address-div h4,
+.email-div h4{
+    font-family: 'Glacial Indifference-Bold';
+    font-size: 25px;
+    color: #FFFFFF;
+}
+.phoneNumber-div p,
+.address-div p,
+.email-div p{
+    font-size: 14px;
+    font-family: 'Muli';
+    color: #DFDFDF;
+}
+/* more-info-section */
