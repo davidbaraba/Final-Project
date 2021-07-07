@@ -1,0 +1,106 @@
+/* base classes */
+
+.container{
+    max-width: 1920px;
+    width: 100%;
+}
+
+/* base classes */
+
+/* info section */
+
+.info-section{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.info-header{
+    display: flex;
+    justify-content: space-between;
+}
+.left-info{
+    margin: 50px 0 0 50px;
+}
+.left-info h3{
+    font-size: 40px;
+    font-family: 'Poppins-ExtraBold';
+    color: #1A1A1A;
+}
+.left-info span{
+    color:#0081FF;
+}
+.left-info h4{
+    font-size: 13px;
+    font-family: 'Montserrat-Regular';
+    color: #B3B3B3;
+}
+
+.right-info{
+    position: relative;
+    width: 227px;
+    margin: 25px 80px 0 0;
+}
+.right-info h1{
+    font-size: 158px;
+    font-family: 'Poppins-ExtraBold';
+    opacity: 0.2;
+}
+.right-info h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 43px;
+    font-family: 'Poppins-ExtraBold';
+    width: 100%;
+    color: #373737;
+}
+
+.information-box{
+    padding-top: 180px;
+    padding-bottom: 180px;
+    padding-right: 300px;
+    float: right;
+}
+.clear{
+    clear: right;
+}
+.information-box h3{
+    font-family: 'Glacial Indifference-Regular';
+    font-size: 50px;
+    color: #212121;
+    padding-bottom: 25px;
+}
+.information-box h2{
+    font-family: 'Glacial Indifference-Bold';
+    font-size: 71px;
+    padding-bottom: 20px;
+}
+.information-box h6{
+    font-family: 'Glacial Indifference-Regular';
+    font-size: 23px;
+    padding-bottom: 50px;
+}
+.social-icons a{
+    margin-left: 15px;
+}
+.text-adv{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 100px;
+}
+.text-adv span{
+    color: #E93656;
+}
+.text-adv h6{
+    display: inline-block;
+    font-family: 'Montserrat-Bold';
+    font-size: 24px;
+    color: #212121;
+    padding-right: 80px;
+    border-bottom: 6px solid #E93656;
+    padding-bottom: 20px;
+    margin-bottom: 45px;
+}
+
+/* info section */
