@@ -219,3 +219,124 @@
     color: #DFDFDF;
 }
 /* more-info-section */
+
+/* services section */
+
+.service-box:not(no-margin-right){
+    margin-right: 10px;
+}
+.servises{
+    margin: 200px 0 160px 0;
+}
+.service-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.service-box{
+    width: 285px;
+    height: 360px;
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.service-box h6{
+    color: #222222;
+    font-size: 22px;
+    font-family: 'Glacial Indifference-Bold';
+}
+.modal-text{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFFFF;
+}
+.modal-text h4{
+    font-size: 22px;
+    font-family: 'Glacial Indifference-Bold';
+    margin-bottom: 20px;
+    text-align: center;
+}
+.modal-text p{
+    font-family: 'Muli';
+    font-size: 14px;
+    padding: 0 30px;
+    text-align: center;
+}
+
+/* responsive */
+
+@media only screen and (max-width: 960px){
+    .left-info {
+        margin: 25px 0 0 25px;
+    }
+    .left-info h3 {
+        font-size: 20px;
+    }
+    .left-info h4 {
+        font-size: 10px;
+    }
+    .right-info {
+        margin: 20px 40px 0 0;
+        width: 150px;
+    }
+    .right-info h1 {
+        font-size: 80px;
+    }
+    .right-info h2 {
+        font-size: 25px;
+    }
+    .information-box {
+        padding-right: 0;
+    }
+    .information-box h2{
+        font-size: 25px;
+    }
+    .information-box h3{
+        font-size: 35px;
+    }
+    .information-box h4{
+        font-size: 15px;
+    }
+    .my-information-div{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-box{
+        flex-direction: column;
+        align-items: center;
+    }
+    .phoneNumber-div,
+    .address-div{
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (max-width: 480px){
+    .info-header{
+        align-items: center;
+    }
+    .left-info,
+    .right-info {
+        margin: 0;
+    }
+    .right-info h1,
+    .right-info h2 {
+        text-align: middle;
+    }
+    .text-adv {
+        padding-right: 20px;
+    }
+    .text-adv h6{
+        font-size: 12px;
+        padding-right: 0;
+    }
+    .information-box {
+        padding-right: 0;
+    }
+}
+
+/* responsive */
