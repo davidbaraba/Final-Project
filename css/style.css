@@ -515,6 +515,64 @@
 }
 /* partners-section */
 
+/* contact-section */
+.contact-section{
+    background-image: url(../images/map.png);
+}
+.contact-section .contact-title{
+    padding-top: 150px;
+    margin-bottom: 45px;
+    text-align: center;
+}
+.contact-section .contact-title h1{
+    color: #FFFFFF;
+    font-size: 40px;
+    font-family: 'Jaapokki-Regular';
+}
+.contact-section .contact-title h6{
+    color: #EEEEEE;
+    font-size: 17px;
+    font-family: 'Roboto-Light';
+}
+.form-box .form{
+    text-align: center;
+    padding-bottom: 120px;
+}
+.form-box .form input{
+    max-width: 290px;
+    width: 100%;
+    padding: 21px 0 21px 29px;
+}
+.form-box .form input::placeholder{
+    color: #515151;
+    font-family: 'Poppins-SemiBold';
+    font-size: 10px;
+}
+.form-box .form .user-name,
+.form-box .form .user-email{
+    margin-right: 6px;
+}
+.form-box .form .user-text{
+    display: block;
+    max-width: 890px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 21px 0 70px 29px;
+}
+.form-box .form button{
+    display: block;
+    color: #E93656;
+    font-size: 12px;
+    font-family: 'Glacial Indifference-Bold';
+    padding: 15px 45px;
+    background-color: transparent;
+    border: 2px solid #E93656;
+    border-radius: 5px;
+    margin: 30px auto;
+}
+/* contact-section */
+
 
 /* responsive */
 
@@ -615,6 +673,13 @@
     }
     .partners-logo-box{
         margin-bottom: 20px;
+    }
+
+    .form-box .form .user-name,
+    .form-box .form .user-email,
+    .form-box .form .user-url{
+        display: block;
+        margin: 0 auto;
     }
 }
 @media only screen and (max-width: 480px){
