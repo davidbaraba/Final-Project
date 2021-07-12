@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Final Project</title>
+    <title>David Barabadze Resume</title>
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="./css/fonts.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -18,8 +19,8 @@
                     <h4>Resume Template</h4>
                 </div>
                 <div class="right-info">
-                    <h1>01</h1>
-                    <h2>About me</h2>
+                    <h2>01</h2>
+                    <h3>About me</h3>
                 </div>
             </div>
             <div class="information-box">
@@ -27,7 +28,7 @@
                 <h2>David Barabadze</h2>
                 <h6>I am Front-end Developer</h6>
                 <div class="social-icons">
-                    <a href="#">
+                    <a href="https://www.facebook.com/david.barabadze.7" target="_blank">
                         <img src="./images/facebook.png" alt="facebook icon">
                     </a>
                     <a href="#">
@@ -46,7 +47,7 @@
             </div>
             <div class="clear"></div>
             <div class="text-adv">
-                <h6><span>100%</span>Satisfied Clients</h6>
+                <h6><span>100% </span>Satisfied Clients</h6>
             </div>
         </section>
         <section class="more-info-section">
@@ -66,24 +67,40 @@
                     <img src="./images/myImage.jpg" alt="my image">
                 </div>
                 <div class="my-skills-div">
-                    <ul class="skills-ul">
-                        <li class="skills-li">Design</li>
-                        <li class="skills-li">Photography</li>
-                        <li class="skills-li">Marking</li>
-                        <li class="skills-li">Photoshop</li>
-                    </ul>
+                    <div class="skills-div">
+                        <div class="skill-div">HTML <span id="mySkillsHtml"></span></div>
+                        <div class="skill-div-line"></div>
+                        <div class="skill-div-line-modal">
+                            <div class="percent-line percent1"></div>
+                        </div>
+                        <div class="skill-div">CSS<span id="mySkillsCss"></span></div>
+                        <div class="skill-div-line"></div>
+                        <div class="skill-div-line-modal">
+                            <div class="percent-line percent2"></div>
+                        </div>
+                        <div class="skill-div">SASS<span id="mySkillsSass"></span></div>
+                        <div class="skill-div-line"></div>
+                        <div class="skill-div-line-modal">
+                            <div class="percent-line percent3"></div>
+                        </div>
+                        <div class="skill-div">JAVASCRIPT<span id="mySkillsJavascript"></span></div>
+                        <div class="skill-div-line"></div>
+                        <div class="skill-div-line-modal">
+                            <div class="percent-line percent4"></div>
+                        </div>
+                    </div>
                     <div class="my-socials">
-                        <a href="#">
-                            <img src="./images/my-fb.png" alt="facebook icon">
+                        <a href="https://www.facebook.com/david.barabadze.7" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
                         </a>
                         <a href="#">
-                            <img src="./images/my-twitter.png" alt="twitter icon">
+                            <i class="fab fa-twitter"></i>
                         </a>
                         <a href="#">
-                            <img src="./images/my-google+.png" alt="Google icon">
+                            <i class="fab fa-google-plus-g"></i>
                         </a>
                         <a href="#">
-                            <img src="./images/my-insta.png" alt="instagram icon">
+                            <i class="fab fa-pinterest-p"></i>
                         </a>
                     </div>
                 </div>
@@ -93,14 +110,14 @@
                     <img src="./images/phone-icon.png" alt="phone icon">
                     <div class="phone-info">
                         <h4>Phone Number</h4>
-                        <p>+995 597 88 28 62</p>
-                        <p>+995 597 88 28 62</p>
+                        <p>+995 - 597 - 88 - 28 - 62</p>
+                        <p>+995 - 597 - 88 - 28 - 62</p>
                     </div>
                 </article>
                 <article class="address-div">
                     <img src="./images/location-icon.png" alt="location icon">
                     <div class="address-info">
-                        <h4>user Address</h4>
+                        <h4>User Address</h4>
                         <p>Georgia, Tbilisi,</p>
                         <p>Tsotne Dadianis str N 271</p>
                     </div>
@@ -109,88 +126,88 @@
                     <img src="./images/email-icon.png" alt="email icon">
                     <div class="email-info">
                         <h4>Email Address</h4>
-                        <!-- <p>datobarabadze30@gmail.com</p>
-                        <p>barabadzedato30@gmail.com</p> -->
+                        <p>datobarabadze30@gmail.com</p>
+                        <p>barabadzedato30@gmail.com</p>
                     </div>
                 </article>
             </div>
         </section>
         <section class="servises">
             <div class="service-div">
-                <div class="service-box" id="serviceBox">
+                <div class="service-box">
                     <img src="./images/Graphichs-Design-icon.png" alt="Graphichs Design icon">
                     <h6>Graphichs Design</h6>
-                    <div class="modal-text" id="modalText">
+                    <div class="modal-text">
                         <h4>Graphichs Design</h4>
                         <p>Lorem ipm dolor amet, consecte
                             adipiing lit Sunt sed ad possimus
                             magm maiores.Ipsa dolor </p>
                     </div>
                 </div>
-                <div class="service-box" id="serviceBox">
+                <div class="service-box">
                     <img src="./images/Best-Service-icon.png" alt="Best Service icon">
                     <h6>Best Service</h6>
-                    <div class="modal-text" id="modalText">
+                    <div class="modal-text">
                         <h4>Best Service</h4>
                         <p>Lorem ipm dolor amet, consecte
                             adipiing lit Sunt sed ad possimus
                             magm maiores.Ipsa dolor </p>
                     </div>
                 </div>
-                <div class="service-box" id="serviceBox">
+                <div class="service-box">
                     <img src="./images/Graphichs-Design-icon.png" alt="Graphichs Design icon">
                     <h6>Graphichs Design</h6>
-                    <div class="modal-text" id="modalText">
+                    <div class="modal-text">
                         <h4>Graphichs Design</h4>
                         <p>Lorem ipm dolor amet, consecte
                             adipiing lit Sunt sed ad possimus
                             magm maiores.Ipsa dolor </p>
                     </div>
                 </div>
-                <div class="service-box no-margin-right" id="serviceBox">
+                <div class="service-box no-margin-right">
                     <img src="./images/Pixel-Perfect-icon.png" alt="Pixel Perfect icon">
                     <h6>Pixel Perfect</h6>
-                    <div class="modal-text" id="modalText">
+                    <div class="modal-text">
                         <h4>Pixel Perfect</h4>
                         <p>Lorem ipm dolor amet, consecte
                             adipiing lit Sunt sed ad possimus
                             magm maiores.Ipsa dolor </p>
                     </div>
                 </div>
-                <div class="service-box" id="serviceBox">
+                <div class="service-box">
                     <img src="./images/Unique-Ideas-icon.png" alt="Unique Ideas icon">
                     <h6>Unique Ideas</h6>
-                    <div class="modal-text" id="modalText">
+                    <div class="modal-text">
                         <h4>Unique Ideas</h4>
                         <p>Lorem ipm dolor amet, consecte
                             adipiing lit Sunt sed ad possimus
                             magm maiores.Ipsa dolor </p>
                     </div>
                 </div>
-                <div class="service-box" id="serviceBox">
+                <div class="service-box">
                     <img src="./images/Design-Analysis-icon.png" alt="Design Analysis icon">
                     <h6>Design Analysis</h6>
-                    <div class="modal-text" id="modalText">
+                    <div class="modal-text">
                         <h4>Design Analysis</h4>
                         <p>Lorem ipm dolor amet, consecte
                             adipiing lit Sunt sed ad possimus
                             magm maiores.Ipsa dolor </p>
                     </div>
                 </div>
-                <div class="service-box" id="serviceBox">
+                <div class="service-box">
                     <img src="./images/Fully-Managed-icon.png" alt="Fully Managed icon">
                     <h6>Fully Managed</h6>
-                    <div class="modal-text" id="modalText">
+                    <div class="modal-text">
                         <h4>Fully Managed</h4>
                         <p>Lorem ipm dolor amet, consecte
                             adipiing lit Sunt sed ad possimus
                             magm maiores.Ipsa dolor </p>
                     </div>
                 </div>
-                <div class="service-box no-margin-right" id="serviceBox">
+                <div class="service-box no-margin-right">
                     <img src="./images/Helpful-Support-icon.png" alt="Helpful Support icon">
                     <h6>Helpful Support</h6>
-                    <div class="modal-text" id="modalText">
+                    <div class="modal-text">
                         <h4>Helpful Support</h4>
                         <p>Lorem ipm dolor amet, consecte
                             adipiing lit Sunt sed ad possimus
@@ -200,14 +217,12 @@
             </div>
         </section>
         <section class="recommendation-section">
-            <div class="recommendations-slider">
+            <div>
                 <article class="recommendations-article" id="recommendationsSlider">
                     <p class="recommendations-text" id="recommendationsText"></p>
-                    <div class="imaghe">
-                        <img alt="" class="recommendations-image" id="recommendationsImage">
-                    </div>
+                    <img src="./images/portrait1.png" alt="recomendators images" class="recommendations-image" id="recommendationsImage">
                     <div class="recommendations-author">
-                        <img class="recommendations-sign-image" src="./images/recommendations-sign.png" alt="recommendations sign">
+                        <img class="recommendations-sign-icon" src="./images/recommendations-sign.png" alt="recommendations sign">
                         <h6 class="recommendations-profession" id="recommendationsProfession"></h6>
                         <h5 class="recommendations-name" id="recommendationsName"></h5>
                     </div>
@@ -216,26 +231,68 @@
         </section>
         <section class="latest-projects-section">
             <div class="latest-projects-box">
-                <h1>Latest Projects</h1>
+                <h2>Latest Projects</h2>
                 <div class="projects-box">
                     <div class="projects-categories-lists">
                         <ul class="projects-ul">
-                            <li class="projects-li">All</li>
-                            <li class="projects-li">Work ideas</li>
-                            <li class="projects-li">Mockup</li>
-                            <li class="projects-li">PSD Design</li>
-                            <li class="projects-li">Logo</li>
-                            <li class="projects-li">Presentation</li>
-                            <li class="projects-li">Icons</li>
+                            <li class="projects-li active" data-filter="all">All</li>
+                            <li class="projects-li" data-filter="work">Work</li>
+                            <li class="projects-li" data-filter="mockup">Mockup</li>
+                            <li class="projects-li" data-filter="design">Design</li>
+                            <li class="projects-li" data-filter="logo">Logo</li>
+                            <li class="projects-li" data-filter="presentation">Presentation</li>
+                            <li class="projects-li" data-filter="icons">Icons</li>
                         </ul>
                     </div>
                     <div class="projects">
-                        <div class="project"></div>
-                        <div class="project"></div>
-                        <div class="project"></div>
-                        <div class="project"></div>
-                        <div class="project"></div>
-                        <div class="project"></div>
+                        <div class="project work">
+                            <img src="./images/project1.jpg" alt="">
+                            <div class="project-modal-text">
+                                <img src="./images/heart-icon.png" alt="">
+                                <h6>9 MONTS AGO</h6>
+                                <h3>Work Ideas</h3>
+                            </div>
+                        </div>
+                        <div class="project mockup">
+                            <img src="./images/project2.jpg" alt="">
+                            <div class="project-modal-text">
+                                <img src="./images/heart-icon.png" alt="">
+                                <h6>2 MONTS AGO</h6>
+                                <h3>Mockup Ideas</h3>
+                            </div>
+                        </div>
+                        <div class="project design">
+                            <img src="./images/project3.jpg" alt="">
+                            <div class="project-modal-text">
+                                <img src="./images/heart-icon.png" alt="">
+                                <h6>7 MONTS AGO</h6>
+                                <h3>Design Ideas</h3>
+                            </div>
+                        </div>
+                        <div class="project logo">
+                            <img src="./images/project4.jpg" alt="">
+                            <div class="project-modal-text">
+                                <img src="./images/heart-icon.png" alt="">
+                                <h6>2 Weeks AGO</h6>
+                                <h3>Logo Ideas</h3>
+                            </div>
+                        </div>
+                        <div class="project presentation">
+                            <img src="./images/project5.jpg" alt="">
+                            <div class="project-modal-text">
+                                <img src="./images/heart-icon.png" alt="">
+                                <h6>2 MONTS AGO</h6>
+                                <h3>Presentation Ideas</h3>
+                            </div>
+                        </div>
+                        <div class="project icons">
+                            <img src="./images/project6.jpg" alt="">
+                            <div class="project-modal-text">
+                                <img src="./images/heart-icon.png" alt="">
+                                <h6>4 MONTS AGO</h6>
+                                <h3>Icons Ideas</h3>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -243,14 +300,14 @@
         <section class="latest-articles-section">
             <div class="title">
                 <h6>NEWS & EVENT</h6>
-                <h1>Latest Articles</h1>
+                <h2>Latest Articles</h2>
             </div>
             <div class="articles-box">
-                <article class="article float-right">
+                <article class="article">
                     <div class="article-info">
                         <img src="./images/Latest-Articles-icon1.png" alt="Latest-Articles-icon">
                         <h6>IN FREELANCING COMPANY</h6>
-                        <h1>Graphic Designer</h1>
+                        <h2>Graphic Designer</h2>
                         <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
                             deserunt mollit anim id est dolor sit amet, consectetur adipisicing elit
                             sed do eiusmod tempor incididunt ut labore Claritas est etiam processus 
@@ -261,17 +318,17 @@
                     <div class="article-date">
                         <h4>2011 - 2012</h4>
                     </div>
-                    <img class="article-img" src="./images/graphic-design.jpg" alt="graphic-design image">
+                    <img class="article-img" src="./images/personal-adviser.jpg" alt="personal adviser image">
                 </article>
-                <article class="article">
-                    <img class="article-img" src="./images/aplication-design.png" alt="aplication-design image">
+                <article class="article middle">
+                    <img class="article-img" src="./images/personal-adviser.jpg" alt="personal adviser image">
                     <div class="article-date">
                         <h4>2013 - 2014</h4>
                     </div>
                     <div class="article-info">
                         <img src="./images/Latest-Articles-icon2.png" alt="Latest-Articles-icon">
                         <h6>IN FREELANCING COMPANY</h6>
-                        <h1>Application Design</h1>
+                        <h2>Application Design</h2>
                         <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
                             deserunt mollit anim id est dolor sit amet, consectetur adipisicing elit
                             sed do eiusmod tempor incididunt ut labore Claritas est etiam processus 
@@ -280,11 +337,11 @@
                         <button>READ MORE</button>
                     </div>
                 </article>
-                <article class="article float-right">
+                <article class="article">
                     <div class="article-info">
                         <img src="./images/Latest-Articles-icon3.png" alt="Latest-Articles-icon">
                         <h6>IN FREELANCING COMPANY</h6>
-                        <h1>Personal Adviser</h1>
+                        <h2>Personal Adviser</h2>
                         <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
                             deserunt mollit anim id est dolor sit amet, consectetur adipisicing elit
                             sed do eiusmod tempor incididunt ut labore Claritas est etiam processus 
@@ -295,7 +352,7 @@
                     <div class="article-date">
                         <h4>2015 - 2016</h4>
                     </div>
-                    <img class="article-img" src="./images/personal-adviser.jpg" alt="aplication-design image">
+                    <img class="article-img" src="./images/personal-adviser.jpg" alt="personal adviser image">
                 </article>
             </div>
         </section>
@@ -303,49 +360,49 @@
             <div class="partners-div">
                 <div class="title">
                     <h6>NEWS & EVENT</h6>
-                    <h1>Rosa Team</h1>
+                    <h2>David Team</h2>
                 </div>
                 <div class="partners-logo-div">
-                    <div class="partners-logo-box" id="logosTextModal">
-                        <img src="./images/partners-logo1.png" alt="">
+                    <div class="partners-logo-box">
+                        <img src="./images/partners-logo1.png" alt="Boss revolution money logo">
                         <div class="logos-modal-text">
-                            <h1>CLIENT 1</h1>
+                            <h2>Boss revolution money</h2>
                             <p>Lorm ipm dolr amt consect
                                 mag maiores.Ipsa dolor sit
                                 magnam maores.</p>
                         </div>
                     </div>
-                    <div class="partners-logo-box" id="logosTextModal">
-                        <img src="./images/partners-logo2.png" alt="">
+                    <div class="partners-logo-box">
+                        <img src="./images/partners-logo2.png" alt="MarterCard logo">
                         <div class="logos-modal-text">
-                            <h1>CLIENT 2</h1>
+                            <h2>MarterCard</h2>
                             <p>Lorm ipm dolr amt consect
                                 mag maiores.Ipsa dolor sit
                                 magnam maores.</p>
                         </div>
                     </div>
-                    <div class="partners-logo-box" id="logosTextModal">
-                        <img src="./images/partners-logo3.svg" alt="">
+                    <div class="partners-logo-box">
+                        <img src="./images/partners-logo3.svg" alt="Puma logo">
                         <div class="logos-modal-text">
-                            <h1>CLIENT 3</h1>
+                            <h2>Puma</h2>
                             <p>Lorm ipm dolr amt consect
                                 mag maiores.Ipsa dolor sit
                                 magnam maores.</p>
                         </div>
                     </div>
-                    <div class="partners-logo-box" id="logosTextModal">
-                        <img src="./images/partners-logo4.svg" alt="">
+                    <div class="partners-logo-box">
+                        <img src="./images/partners-logo4.svg" alt="Roche logo">
                         <div class="logos-modal-text">
-                            <h1>CLIENT 4</h1>
+                            <h2>Roche</h2>
                             <p>Lorm ipm dolr amt consect
                                 mag maiores.Ipsa dolor sit
                                 magnam maores.</p>
                         </div>
                     </div>
-                    <div class="partners-logo-box" id="logosTextModal">
-                        <img src="./images/partners-logo5.png" alt="">
+                    <div class="partners-logo-box">
+                        <img src="./images/partners-logo5.png" alt="Aoyos logo">
                         <div class="logos-modal-text">
-                            <h1>CLIENT 5</h1>
+                            <h2>Aoyos</h2>
                             <p>Lorm ipm dolr amt consect
                                 mag maiores.Ipsa dolor sit
                                 magnam maores.</p>
@@ -354,10 +411,10 @@
                 </div>
             </div>
         </section>
-        <section class="contact-section" style="background-color: gray;">
+        <section class="contact-section">
             <div class="contact-title">
-                <h1>CONTACT US</h1>
-                <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h6>
+                <h2>CONTACT ME</h2>
+                <h6>Send me your message. I will contact you soon.</h6>
             </div>
             <div class="form-box">
                 <form class="form">
@@ -365,10 +422,39 @@
                     <input type="email" class="user-email" id="userEmail" placeholder="Email Address*">
                     <input type="url" class="user-url" id="userUrl" placeholder="Your Website*">
                     <input type="text" class="user-text" id="userText" placeholder="Message*">
-                    <button>SEND MESSAGE</button>
+                    <button type="submit">SEND MESSAGE</button>
                 </form>
             </div>
         </section>
+        <footer class="footer">
+            <h1>David<span>.</span></h1>
+            <div class="socials-div">
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed doeiusmod tempor incididunt ut 
+                    labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud.
+                </p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/david.barabadze.7" target="_blank">
+                        <img src="./images/facebook-icon.png" alt="facebook-icon">
+                    </a>
+                    <a href="#">
+                        <img src="./images/twitter-icon.png" alt="twitter-icon">
+                    </a>
+                    <a href="#">
+                        <img src="./images/google-plus-icon.png" alt="google-plus-icon">
+                    </a>
+                    <a href="#">
+                        <img src="./images/behance-icon.png" alt="behance-icon">
+                    </a>
+                    <a href="#">
+                        <img src="./images/pinterest-icon.png" alt="pinterest-icon">
+                    </a>
+                    <a href="#">
+                        <img src="./images/instagram-icon.png" alt="instagram-icon">
+                    </a>
+                </div>
+            </div>
+            <h6>© All right reserved 2019. <span>David</span> - Creative Agency Website PSD Template.</h6>
+        </footer>
     </div>
     <script src="script.js"></script>
 </body>

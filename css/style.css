@@ -3,12 +3,7 @@
 .container{
     max-width: 1920px;
     width: 100%;
-}
-.float-right{
-    float: right;
-}
-.clear{
-    clear: right;
+    margin: 0 auto;
 }
 
 /* base classes */
@@ -34,6 +29,7 @@
 }
 .left-info span{
     color:#0081FF;
+    font-size: 33px;
 }
 .left-info h4{
     font-size: 13px;
@@ -46,12 +42,12 @@
     width: 227px;
     margin: 25px 80px 0 0;
 }
-.right-info h1{
+.right-info h2{
     font-size: 158px;
     font-family: 'Poppins-ExtraBold';
     opacity: 0.2;
 }
-.right-info h2{
+.right-info h3{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -87,7 +83,7 @@
     font-size: 23px;
     padding-bottom: 50px;
 }
-.social-icons a{
+.information-box .social-icons a{
     margin-left: 15px;
 }
 .text-adv{
@@ -145,6 +141,7 @@
     font-family: 'Muli';
     color: #555555;
     margin-bottom: 60px;
+    line-height: 1.5;
 }
 .aboutme-info-article .hire-btn{
     font-size: 15px;
@@ -153,22 +150,65 @@
     background-color: #E93656;
     padding: 15px 45px;
     border: none;
+    cursor: pointer;
 }
-.profile-image{
-    margin-right: 70px;
-    margin-left: 70px;
+.my-information-div .profile-image{
+    margin: 0 70px;
 }
-.profile-image img{
+.my-information-div .profile-image img{
     max-width: 430px;
     width: 100%;
+}
+.my-information-div .my-skills-div{
+    max-width: 300px;
+    width: 100%;
+}
+.my-skills-div .skills-div .skill-div{
+    font-size: 20px;
+    color: #555555;
+    font-family: 'Glacial Indifference-Bold';
+    padding-bottom: 15px;
+    /* border-bottom: 9px solid #F0F0F0; */
+}
+.skill-div-line{
+    width: 100%;
+    background-color: #F0F0F0;
+    height: 9px;
+    margin-bottom: 25px;
+}
+.percent1{
+    width: 80%;
+}
+.percent2{
+    width: 65%;
+}
+.percent3{
+    width: 50%;
+}
+.percent4{
+    width: 30%;
+}
+.skill-div-line-modal{
+    width: 100%;
+    background-color: #F0F0F0;
+    height: 9px;
+    margin-bottom: 25px;
+    display: none;
+}
+.skill-div-line.active{
+    display: none;
+}
+.skill-div-line-modal.active{
+    display: flex;
+}
+.percent-line{
+    background-color: #E93656;
+    height: 100%;
 }
 .my-socials{
     display: flex;
     align-items: center;
     margin-top: 75px;
-}
-.my-socials a:hover{
-    background-color: #15263E;
 }
 .my-socials a{
     padding: 20px;
@@ -180,8 +220,18 @@
     justify-content: center;
     align-items: center;
 }
+.my-socials a:hover{
+    background-color: #15263E;
+    color: #FFFFFF;
+}
+.my-socials i{
+    color: gray;
+}
+.my-socials i:hover{
+    color: white;
+}
 
-.contact-box{
+.more-info-section .contact-box{
     display: flex;
     justify-content: center;
     background-color: #131A36;
@@ -192,37 +242,21 @@
 .address-div{
     margin-right: 40px;
 }
-.phoneNumber-div,
-.address-div,
-.email-div{
+.more-info-section .contact-box article{
     display: flex;
     align-items: center;
 }
-.phoneNumber-div img,
-.address-div img,
-.email-div img{
+.more-info-section .contact-box article img{
     margin-right: 15px;
 }
-.phone-info h4,
-.address-info h4,
-.email-info h4{
+.more-info-section .contact-box article h4{
     margin-bottom: 15px;
-}
-.phone-info p,
-.address-info p,
-.email-info p{
-    margin-bottom: 5px;
-}
-.phoneNumber-div h4,
-.address-div h4,
-.email-div h4{
     font-family: 'Glacial Indifference-Bold';
     font-size: 25px;
     color: #FFFFFF;
 }
-.phoneNumber-div p,
-.address-div p,
-.email-div p{
+.more-info-section .contact-box article p{
+    margin-bottom: 5px;
     font-size: 14px;
     font-family: 'Muli';
     color: #DFDFDF;
@@ -231,9 +265,6 @@
 
 /* services section */
 
-.service-box:not(no-margin-right){
-    margin-right: 10px;
-}
 .servises{
     margin: 200px 0 160px 0;
 }
@@ -253,6 +284,9 @@
     align-items: center;
     margin-bottom: 10px;
 }
+.service-box:not(no-margin-right){
+    margin-right: 10px;
+}
 .service-box h6{
     color: #222222;
     font-size: 22px;
@@ -271,7 +305,7 @@
     text-align: center;
 }
 .modal-text p{
-    font-family: 'Muli';
+    font-family: 'Muli-light';
     font-size: 14px;
     padding: 0 30px;
     text-align: center;
@@ -314,7 +348,7 @@
 .recommendations-author{
     margin-right: 150px;
 }
-.recommendations-sign-image{
+.recommendations-sign-icon{
     margin-bottom: 30px;
 }
 .recommendations-profession{
@@ -347,11 +381,14 @@
 /* recommendation section */
 
 /* latest-projects-section */
+.projects-li.active{
+    color: #E93656;
+}
 .latest-projects-box{
     margin-top: 150px;
     margin-bottom: 170px;
 }
-.latest-projects-box h1{
+.latest-projects-box h2{
     font-family: 'Glacial Indifference-Bold';
     font-size: 70px;
     color: #2E2E2E;
@@ -365,13 +402,47 @@
 .projects-categories-lists{
     padding: 50px 70px 45px 60px;
     background-color: #15263E;
-    height: 400px;
+    height: 415px;
     margin-right: 25px;
 }
 .projects{
     display: flex;
     flex-wrap: wrap;
     max-width: 900px;
+    width: 100%;
+    background-color: #FAFAFA;
+    justify-content: center;
+    align-items: center;
+}
+.projects .project{
+    display: flex;
+    justify-content: center;
+}
+/* .projects .project img{
+    max-width: 300px;
+    width: 100%;
+} */
+.projects .project .project-modal-text{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    background-color: #000000;
+}
+.project-modal-text img{
+    margin-bottom: 15px;
+}
+.project-modal-text h6{
+    margin-bottom: 15px;
+    font-family: 'Muli';
+    font-size: 11px;
+    color: #DDDDDD;
+}
+.project-modal-text h3{
+    color: #FFFFFF;
+    font-size: 23px;
+    font-family: 'Glacial Indifference-Bold';
 }
 .projects-ul{
     font-family: 'Glacial Indifference-Bold';
@@ -380,11 +451,12 @@
 }
 .projects-li{
     margin-bottom: 30px;
+    cursor: pointer;
 }
 .projects-box .project{
     width: 300px;
     height: 300px;
-    background-color: gray;
+    background-color: #000000;
 }
 /* latest-projects-section */
 
@@ -403,14 +475,25 @@
     color: #2ED279;
     margin-bottom: 15px;
 }
-.latest-articles-section .title h1{
+.latest-articles-section .title h2{
     font-family: 'Glacial Indifference-Bold';
     font-size: 70px;
     color: #2E2E2E;
 }
-.articles-box .article{
-    width: 90vw;
+.articles-box{
     display: flex;
+    flex-direction: column;
+}
+.articles-box .article{
+    padding-left: 170px;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.articles-box .article.middle{
+    padding-left: 0;
+    padding-right: 170px;
+    justify-content: flex-start;
 }
 .articles-box .article .article-info{
     display: inline-block;
@@ -427,7 +510,7 @@
     font-family: 'Muli';
     margin-bottom: 20px;
 }
-.articles-box .article .article-info h1{
+.articles-box .article .article-info h2{
     color: #161616;
     font-size: 40px;
     font-family: 'Glacial Indifference-Bold';
@@ -438,6 +521,7 @@
     font-size: 16px;
     font-family: 'Muli';
     margin-bottom: 15px;
+    line-height: 1.5;
 }
 .articles-box .article .article-info button{
     border: none;
@@ -446,6 +530,7 @@
     font-size: 16px;
     font-family: 'Muli';
     padding: 0;
+    cursor: pointer;
 }
 .articles-box .article .article-date{
     color: #E93656;
@@ -453,7 +538,7 @@
     font-family: 'Glacial Indifference-Bold';
     display: flex;
     align-items: center;
-    width: 9vw;
+    width: 10vw;
     justify-content: center;
 }
 .articles-box .article .article-date h4{
@@ -465,7 +550,7 @@
 /* latest-articles-section */
 
 /* partners-section */
-.partners-div{
+.partners-section .partners-div{
     margin-top: 170px;
     margin-bottom: 155px;
 }
@@ -479,12 +564,12 @@
     color: #2ED279;
     margin-bottom: 15px;
 }
-.partners-section .partners-div .title h1{
+.partners-section .partners-div .title h2{
     font-family: 'Glacial Indifference-Bold';
     font-size: 70px;
     color: #2E2E2E;
 }
-.partners-logo-div{
+.partners-section .partners-div .partners-logo-div{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -492,6 +577,7 @@
 }
 .partners-logo-box img{
     max-width: 230px;
+    width: 100%;
 }
 .partners-logo-box .logos-modal-text{
     max-width: 230px;
@@ -502,7 +588,7 @@
     border-radius: 5px;
     display: none;
 }
-.partners-logo-box .logos-modal-text h1{
+.partners-logo-box .logos-modal-text h2{
     color: #161616;
     font-family: 'Poppins-SemiBold';
     font-size: 16px;
@@ -524,7 +610,7 @@
     margin-bottom: 45px;
     text-align: center;
 }
-.contact-section .contact-title h1{
+.contact-section .contact-title h2{
     color: #FFFFFF;
     font-size: 40px;
     font-family: 'Jaapokki-Regular';
@@ -573,6 +659,49 @@
 }
 /* contact-section */
 
+/* footer */
+.footer{
+    background-color: #282828;
+    text-align: center;
+}
+.footer h1{
+    color: #FFFFFF;
+    font-size: 55px;
+    font-family: 'Poppins-ExtraBold';
+    padding-top: 116px;
+}
+.footer h1 span{
+    color: #E93656;
+}
+.footer .socials-div{
+    max-width: 613px;
+    width: 100%;
+    margin: 25px auto 0 auto;
+    padding-bottom: 45px;
+}
+.footer .socials-div p{
+    color: #A5A5A5;
+    font-size: 17px;
+    font-family: 'Jaapokki-Regular';
+}
+.footer .socials-div .social-icons{
+    margin-top: 45px;
+}
+.footer .socials-div .social-icons img{
+    margin-right: 15px;
+}
+.footer h6{
+    color: #A0A8B7;
+    font-size: 15px;
+    font-family: 'Muli';
+    padding: 30px 0;
+    background-color: #171717;
+}
+.footer h6 span{
+    color: #FFFFFF;
+}
+/* footer */
+
 
 /* responsive */
 
@@ -590,10 +719,10 @@
         margin: 20px 40px 0 0;
         width: 150px;
     }
-    .right-info h1 {
+    .right-info h2 {
         font-size: 80px;
     }
-    .right-info h2 {
+    .right-info h3 {
         font-size: 25px;
     }
     .information-box {
@@ -612,6 +741,15 @@
         flex-direction: column;
         align-items: center;
     }
+    .my-information-div .my-skills-div{
+        margin-top: 20px;
+    }
+    .my-information-div .my-skills-div .my-socials{
+        justify-content: center;
+    }
+    .aboutme-info-article {
+        text-align: center;
+    }
     .contact-box{
         flex-direction: column;
         align-items: center;
@@ -619,6 +757,9 @@
     .phoneNumber-div,
     .address-div{
         margin-bottom: 10px;
+    }
+    .phoneNumber-div, .address-div {
+        margin-right: 0;
     }
 
     /* recommendation section */
@@ -660,8 +801,14 @@
     /* latest-projects-section */
 
     /* latest article */
+    .articles-box .article.middle{
+        padding-right: 0;
+        justify-content: center;
+    }
     .articles-box .article{
         justify-content: center;
+        padding: 0;
+        text-align: center;
     }
     .articles-box .article .article-img{
         display: none;
@@ -690,9 +837,9 @@
     .right-info {
         margin: 0;
     }
-    .right-info h1,
-    .right-info h2 {
-        text-align: middle;
+    .right-info h2,
+    .right-info h3 {
+        text-align: center;
     }
     .text-adv {
         padding-right: 20px;
@@ -703,6 +850,16 @@
     }
     .information-box {
         padding-right: 0;
+    }
+
+    .more-info-section .contact-box article p{
+        font-size: 8px;
+    }
+    .latest-projects-box h2 {
+        margin-bottom: 50px;
+    }
+    .latest-articles-section .title h2 {
+        font-size: 50px;
     }
 
     .articles-box .article .article-date{
